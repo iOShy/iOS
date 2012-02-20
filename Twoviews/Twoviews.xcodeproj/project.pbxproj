@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B7CA5AF14F307460083DBD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7CA5AE14F307460083DBD2 /* UIKit.framework */; };
+		5B7CA5B114F307460083DBD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7CA5B014F307460083DBD2 /* Foundation.framework */; };
+		5B7CA5B314F307460083DBD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B7CA5B214F307460083DBD2 /* CoreGraphics.framework */; };
+		5B7CA5B914F307460083DBD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B7CA5B714F307460083DBD2 /* InfoPlist.strings */; };
+		5B7CA5BB14F307460083DBD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CA5BA14F307460083DBD2 /* main.m */; };
+		5B7CA5BF14F307460083DBD2 /* twoviewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CA5BE14F307460083DBD2 /* twoviewsAppDelegate.m */; };
+		5B7CA5C214F307460083DBD2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7CA5C014F307460083DBD2 /* MainStoryboard.storyboard */; };
+		5B7CA5C514F307470083DBD2 /* twoviewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7CA5C414F307470083DBD2 /* twoviewsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B7CA5AA14F307460083DBD2 /* Twoviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twoviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7CA5AE14F307460083DBD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B7CA5B014F307460083DBD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B7CA5B214F307460083DBD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B7CA5B614F307460083DBD2 /* Twoviews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twoviews-Info.plist"; sourceTree = "<group>"; };
+		5B7CA5B814F307460083DBD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B7CA5BA14F307460083DBD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B7CA5BC14F307460083DBD2 /* Twoviews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twoviews-Prefix.pch"; sourceTree = "<group>"; };
+		5B7CA5BD14F307460083DBD2 /* twoviewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoviewsAppDelegate.h; sourceTree = "<group>"; };
+		5B7CA5BE14F307460083DBD2 /* twoviewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoviewsAppDelegate.m; sourceTree = "<group>"; };
+		5B7CA5C114F307460083DBD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5B7CA5C314F307460083DBD2 /* twoviewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoviewsViewController.h; sourceTree = "<group>"; };
+		5B7CA5C414F307470083DBD2 /* twoviewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoviewsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7CA5A714F307460083DBD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7CA5AF14F307460083DBD2 /* UIKit.framework in Frameworks */,
+				5B7CA5B114F307460083DBD2 /* Foundation.framework in Frameworks */,
+				5B7CA5B314F307460083DBD2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7CA59F14F307460083DBD2 = {
+			isa = PBXGroup;
+			children = (
+				5B7CA5B414F307460083DBD2 /* Twoviews */,
+				5B7CA5AD14F307460083DBD2 /* Frameworks */,
+				5B7CA5AB14F307460083DBD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B7CA5AB14F307460083DBD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CA5AA14F307460083DBD2 /* Twoviews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7CA5AD14F307460083DBD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CA5AE14F307460083DBD2 /* UIKit.framework */,
+				5B7CA5B014F307460083DBD2 /* Foundation.framework */,
+				5B7CA5B214F307460083DBD2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B7CA5B414F307460083DBD2 /* Twoviews */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CA5BD14F307460083DBD2 /* twoviewsAppDelegate.h */,
+				5B7CA5BE14F307460083DBD2 /* twoviewsAppDelegate.m */,
+				5B7CA5C014F307460083DBD2 /* MainStoryboard.storyboard */,
+				5B7CA5C314F307460083DBD2 /* twoviewsViewController.h */,
+				5B7CA5C414F307470083DBD2 /* twoviewsViewController.m */,
+				5B7CA5B514F307460083DBD2 /* Supporting Files */,
+			);
+			path = Twoviews;
+			sourceTree = "<group>";
+		};
+		5B7CA5B514F307460083DBD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7CA5B614F307460083DBD2 /* Twoviews-Info.plist */,
+				5B7CA5B714F307460083DBD2 /* InfoPlist.strings */,
+				5B7CA5BA14F307460083DBD2 /* main.m */,
+				5B7CA5BC14F307460083DBD2 /* Twoviews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7CA5A914F307460083DBD2 /* Twoviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7CA5C814F307470083DBD2 /* Build configuration list for PBXNativeTarget "Twoviews" */;
+			buildPhases = (
+				5B7CA5A614F307460083DBD2 /* Sources */,
+				5B7CA5A714F307460083DBD2 /* Frameworks */,
+				5B7CA5A814F307460083DBD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twoviews;
+			productName = Twoviews;
+			productReference = 5B7CA5AA14F307460083DBD2 /* Twoviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B7CA5A114F307460083DBD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5B7CA5A414F307460083DBD2 /* Build configuration list for PBXProject "Twoviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B7CA59F14F307460083DBD2;
+			productRefGroup = 5B7CA5AB14F307460083DBD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7CA5A914F307460083DBD2 /* Twoviews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B7CA5A814F307460083DBD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7CA5B914F307460083DBD2 /* InfoPlist.strings in Resources */,
+				5B7CA5C214F307460083DBD2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7CA5A614F307460083DBD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7CA5BB14F307460083DBD2 /* main.m in Sources */,
+				5B7CA5BF14F307460083DBD2 /* twoviewsAppDelegate.m in Sources */,
+				5B7CA5C514F307470083DBD2 /* twoviewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B7CA5B714F307460083DBD2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7CA5B814F307460083DBD2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B7CA5C014F307460083DBD2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7CA5C114F307460083DBD2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B7CA5C614F307470083DBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B7CA5C714F307470083DBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B7CA5C914F307470083DBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twoviews/Twoviews-Prefix.pch";
+				INFOPLIST_FILE = "Twoviews/Twoviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B7CA5CA14F307470083DBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twoviews/Twoviews-Prefix.pch";
+				INFOPLIST_FILE = "Twoviews/Twoviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7CA5A414F307460083DBD2 /* Build configuration list for PBXProject "Twoviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7CA5C614F307470083DBD2 /* Debug */,
+				5B7CA5C714F307470083DBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7CA5C814F307470083DBD2 /* Build configuration list for PBXNativeTarget "Twoviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7CA5C914F307470083DBD2 /* Debug */,
+				5B7CA5CA14F307470083DBD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B7CA5A114F307460083DBD2 /* Project object */;
+}
