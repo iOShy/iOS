@@ -7,8 +7,11 @@
 //
 
 #import "twoviewsViewController.h"
+#import "view1.h"
 
 @implementation twoviewsViewController
+@synthesize leftview;
+@synthesize rightview;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,13 +25,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    CGRect frame = CGRectMake( 0., 0., 100., 100. );
+    
+    frame.size.width = 100.;
+    frame.size.height = 100.;
+    frame.origin.x = 0.;
+    frame.origin.y = self.view.frame.size.height - frame.size.height;
+    
+    view1 *firstView = [[view1 alloc] initWithFrame:frame];
+    [self.view addSubview:firstView];
 }
 
 - (void)viewDidUnload
 {
+    [self setLeftview:nil];
+    [self setRightview:nil];
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+   
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -57,4 +71,10 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)changeViewPressed:(id)sender {
+}
+- (IBAction)changeViewPressed {
+    leftview.backgroundColor = [UIColor purpleColor];
+    rightview.backgroundColor = [UIColor orangeColor];    
+}
 @end

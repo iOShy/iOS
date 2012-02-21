@@ -1,7 +1,7 @@
 //
 //  twoviewsViewController.h
 //  Twoviews
-//hmmmm
+//
 //
 //  Created by Hauwa Yusuf on 2/20/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
@@ -9,6 +9,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface twoviewsViewController : UIViewController
+
+@class view1;
+
+@interface twoviewsViewController : UIViewController{
+    NSArray *theViewArray;
+}
+
+@property (weak, nonatomic) IBOutlet UIView *leftview;
+@property (weak, nonatomic) IBOutlet UIView *rightview;
+
+
+- (IBAction)changeViewPressed;
 
 @end
