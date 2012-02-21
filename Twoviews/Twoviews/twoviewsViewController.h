@@ -17,7 +17,7 @@
 }
 
 @property (weak, nonatomic) IBOutlet UIView *leftview;
-@property (weak, nonatomic) IBOutlet UIView *rightview;
+@property (weak, nonatomic) IBOutlet view1 *rightview;
 
 
 - (IBAction)changeViewPressed;

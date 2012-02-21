@@ -12,4 +12,6 @@
 
 -(void) change;
 
+-(void) addLabel;
+
 @end

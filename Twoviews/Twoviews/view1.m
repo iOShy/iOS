@@ -32,4 +32,12 @@
     self.backgroundColor = [UIColor redColor];
 }
 
+-(void) addLabel
+{
+   UILabel *label = [[UILabel alloc] initWithFrame:self.bounds];
+   label.text = @"Partial credit (3/5)";
+   label.backgroundColor = [UIColor clearColor];
+   [self addSubview:label];
+}
+
 @end

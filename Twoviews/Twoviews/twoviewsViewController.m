@@ -76,5 +76,6 @@
 - (IBAction)changeViewPressed {
     leftview.backgroundColor = [UIColor purpleColor];
     rightview.backgroundColor = [UIColor orangeColor];    
+   [rightview addLabel];
 }
 @end
